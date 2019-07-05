@@ -13,7 +13,7 @@ from sumy.summarizers.sum_basic import SumBasicSummarizer
 
 #parser = PlaintextParser.from_string(document1,Tokenizer("english"))
 
-file = "Input_38_Full_Stop.csv"
+file = "Input_File_For_Summarization.csv"
 parser = PlaintextParser.from_file(file, Tokenizer("english"))
 
 # Using LexRank
@@ -91,7 +91,7 @@ for sentence in summary_4:
     sentence_file+="\n"
 sentence_file+="\n#######################################################\n"
     
-with open("Output_250_38_Full_Stop.txt","w") as f:
+with open("Output_Having_Luhn_LSA_Text-Rank.csv","w") as f:
     f.write(sentence_file)
 
 ##########################################  To Be Used #################################################
