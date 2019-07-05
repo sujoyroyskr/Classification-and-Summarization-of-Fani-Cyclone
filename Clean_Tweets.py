@@ -1,3 +1,6 @@
+# Author: Sujoy Roy
+# This Code is specifically according to the Twitter Dataset, uploaded in the file.
+
 import pandas as pd
 
 '''
@@ -13,7 +16,7 @@ print(df1)
 '''
 ######################################$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$###############################
 
-data = pd.read_csv("May_8  (19-19 to 19-21)  (13 Approx Tweets).txt", header=None, error_bad_lines=False, sep='"', usecols = (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15))
+data = pd.read_csv("Tweet_File_Name.txt", header=None, error_bad_lines=False, sep='"', usecols = (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15))
 
 df = pd.DataFrame(data)
 #print(df2)
@@ -43,5 +46,5 @@ print(final)
 #print(df)
 
 #dt2.to_csv("Input_Tweet.csv")
-final.to_csv("Main40.csv")
+final.to_csv("Output_File_Name.csv")
 
