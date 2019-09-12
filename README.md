@@ -9,7 +9,7 @@ File Name:- Clean_Tweets.py - gives the output, for being the input file for the
 File Name:- Full_Stop_at_End.py - gives a full stop at the end, in order to help the summarization algorithm understand as where the sentece is ending for it to read all the tweets.
 
 Further, the Summarization has been performed on the extracted tweets.
-The summarization algorith which has been used are:- Lex-Rank, Luhn, LSA, Text-Rank and Sum-Basic.
-Out of which the best results has been found with the intersection of 1.(Luhn, LSA and Text-Rank), 2.(Luhn, LSA), 3.(Luhn, Text-Rank) and 4.(LSA, Text-Rank).
+The summarization algorith which has been used are:- Luhn and LSA.
+Also, tried few more summarization algorithms alongside and considered them keeping in mind the future perspective. Algorithms like Lex-Rank and Sum-Basic.
 
-Codes and Final Output will be uploaded Soon..
+Also tried, mixing out these summarization algorithms of which the best results has been found with the intersection of 1.(Luhn, LSA and Text-Rank), 2.(Luhn, LSA), 3.(Luhn, Text-Rank) and 4.(LSA, Text-Rank).
