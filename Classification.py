@@ -34,12 +34,12 @@ clf.score(data_test, targets_test)
 #Merge the tweets in the section below
 
 sentences = count_vectorizer.transform([
-    "What a great airline, the trip was a pleasure!",
-    "My issue was quickly resolved after calling customer support. Thanks!",
-    "What the hell! My flight was cancelled again. This sucks!",
-    "Service was awful. I'll never fly with you again.",
-    "You fuckers lost my luggage. Never again!",
-    "I have mixed feelings about airlines. I don't know what I think.",
+    "#########################################",
+    "##################################################",
+    "########################################################",
+    "##############################################################",
+    "##############################################################",
+    "##############################################################",
     ""
 ])
 clf.predict_proba(sentences)
